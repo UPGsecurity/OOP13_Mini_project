@@ -64,7 +64,7 @@ public class CountdownTimer extends Application {
         }
 
         errorLabel.setText("");
-        remainingSeconds = minutes * 60;
+        remainingSeconds = minutes *60;
         updateDisplay();
 
         if (timeline != null) timeline.stop();
@@ -107,7 +107,7 @@ public class CountdownTimer extends Application {
     }
 
     private void updateDisplay() {
-        int mins = remainingSeconds / 60;
+        int mins = remainingSeconds /60;
         int secs = remainingSeconds % 60;
         timeLabel.setText(String.format("%02d:%02d", mins, secs));
     }
@@ -121,7 +121,6 @@ public class CountdownTimer extends Application {
         fade.setCycleCount(Animation.INDEFINITE);
         fade.play();
     }
-
     public static void main(String[] args) {
         launch(args);
     }
