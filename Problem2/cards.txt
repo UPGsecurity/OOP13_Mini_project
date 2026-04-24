@@ -1,0 +1,7 @@
+What does 'static' mean in Java?|Member that belongs to the class, not to any instance
+What is inheritance in OOP?|A mechanism where child class acquires properties of parent class
+What is encapsulation?|Hiding internal data using private fields and public getters/setters
+What does 'final' keyword do?|Makes variable constant, method non-overridable, or class non-extendable
+What is constructor?|Special method called when an object is created, used to initialize fields
+What is polymorphism?|The ability of method to behave differently based on object calling it
+What does 'abstract' class mean?|Class that cannot be instantiated and may have abstract (unimplemented) methods
