@@ -62,7 +62,7 @@ public class ContactBook extends Application {
             while ((line = br.readLine()) != null) {
                 String[] p = line.split("\\|");
                 if (p.length >= 3) {
-                    contactList.getItems().add(p[0] + " --- " + p[1] + "@" + p[2]);
+                    contactList.getItems().add(p[0] + " -- " + p[1] + "@" + p[2]);
                 }
             }
             br.close();
@@ -154,7 +154,7 @@ public class ContactBook extends Application {
             stage.setScene(scene1);
  
         } catch (IOException e) {
-            scene2Error.setText("Error saving contact.");
+            scene2Error.setText("error saving contact.");
         }
     }
  
